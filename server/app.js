@@ -11,7 +11,7 @@ const cors = require("cors");
 
 //CORS
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173","https://cineverse-dun.vercel.app"],
     credentials: true
 }))
 
